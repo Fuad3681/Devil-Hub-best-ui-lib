@@ -149,7 +149,7 @@ function Kavo:ToggleUI()
     end
 end
 
-function Kavo:BGLoader(id)
+function Kavo:BGLoader(13698057108)
 	for i,v in pairs(game.CoreGui:FindFirstChild("HubDestroyer"):GetDescendants()) do
 		if v:IsA("TextButton") or v.Name == "MainHeader" or v.Name == "coverup" then
 			v.BackgroundTransparency = v.BackgroundTransparency + .7
